@@ -71,6 +71,7 @@ main h2{
     border-bottom: 2px solid var(--cor1);
     color: var(--cor1);
     font-family: var(--font1);
+    background-image: linear-gradient(to right, black, transparent);
 }
 main p{
     text-align: justify;
