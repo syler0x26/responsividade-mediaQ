@@ -1,0 +1,82 @@
+@charset "UTF-8";
+:root{
+    --cor1: chartreuse;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+    background: gray url(../img/background.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+header > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+
+    color: chartreuse;
+}
+
+i#burguer{
+    background-color: gray;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: var(--cor1);
+}
+menu{
+    display: none;
+    text-align: center;
+}
+menu > ul > li{
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+menu > ul > li > a{
+    text-decoration: none;
+    display: block;
+    color: var(--cor1);
+    font-size: 1.5em;
+    border-top: 2px solid var(--cor1);
+}
+menu > ul > li > a:hover{
+    background-color: gray;
+}
+main{
+    padding: 5px;
+    width: 90vw;
+    border-radius:  10px;
+    background-color: gray;
+    margin: auto;
+}
+main h2{
+    text-align: center;
+    background-image: linear-gradient(to right, black, transparent);
+    color: var(--cor1);
+}
+main p{
+    text-align: justify;
+    padding: 20px;
+    text-indent: 20px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+}
+footer p{
+    padding-top: 10px;
+}
