@@ -1,6 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 :root{
     --cor1: chartreuse;
+    --fontP: Arial, Helvetica, sans-serif;
+    --font1: "Oswald", serif;
 }
 *{
     margin: 0px;
@@ -22,8 +25,8 @@ header{
 header > h1 {
     text-align: center;
     padding-bottom: 10px;
-
     color: chartreuse;
+    font-family: var(--font1);
 }
 
 i#burguer{
@@ -44,11 +47,13 @@ menu > ul > li{
     list-style-type: none;
 }
 menu > ul > li > a{
+    margin-left: 40px;
     text-decoration: none;
     display: block;
     color: var(--cor1);
     font-size: 1.5em;
     border-top: 2px solid var(--cor1);
+    font-family: var(--font1);
 }
 menu > ul > li > a:hover{
     background-color: gray;
@@ -57,18 +62,23 @@ main{
     padding: 5px;
     width: 90vw;
     border-radius:  10px;
-    background-color: gray;
+    background-color: rgb(87, 87, 87);
     margin: auto;
+    border: 2px solid var(--cor1);
 }
 main h2{
     text-align: center;
-    background-image: linear-gradient(to right, black, transparent);
+    border-bottom: 2px solid var(--cor1);
     color: var(--cor1);
+    font-family: var(--font1);
 }
 main p{
     text-align: justify;
     padding: 20px;
     text-indent: 20px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: var(--cor1);
 }
 footer{
     background-color: rgb(0, 0, 0);
